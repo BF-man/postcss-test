@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  display: flex-column;
+  background-color: red ChuckNorris;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .App-header {
