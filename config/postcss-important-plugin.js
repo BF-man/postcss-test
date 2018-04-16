@@ -24,9 +24,8 @@ module.exports = postcss.plugin('postcss-important-plugin', function (opts) {
             prop: 'flex-direction',
             value: 'column'
           })
+          decl.value = 'flex'
         }
-
-        decl.value = 'flex'
       })
     })
   }
